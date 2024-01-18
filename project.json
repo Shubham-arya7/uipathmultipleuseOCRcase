@@ -1,0 +1,95 @@
+{
+  "name": "Practices",
+  "projectId": "73e0ba7a-7a5c-46da-a0b1-96f24188aa1a",
+  "description": "Blank Process",
+  "main": "Document understanding.xaml",
+  "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "ServiceStack.Api.Swagger": "[5.11.0]",
+    "UiPath.Database.Activities": "[1.7.1]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.24.0]",
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.IntelligentOCR.Activities": "[6.14.1]",
+    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.OmniPage.Activities": "[1.17.0]",
+    "UiPath.PDF.Activities": "[3.16.0]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]",
+    "UiPath.WebAPI.Activities": "[1.18.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.7.0.0",
+  "projectVersion": "1.0.6",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "aa8d55d8-2dd5-4d1d-b051-b77f3124bf4a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Practice4_Basic_of_Dictionaries_WeightCalculation_START.xaml",
+      "uniqueId": "b37d70df-4147-4d3d-b682-0006fe166b8c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Baisc of config files.xaml",
+      "uniqueId": "745cc659-cb5c-4f0c-a594-91614a92c71c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Document understanding.xaml",
+      "uniqueId": "f5799215-ad41-4c3a-9be1-083659131b1d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "config file initialization.xaml",
+      "uniqueId": "f02a2cf3-b2ff-42ce-b479-3dfeff951f3a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/tron-lightcycle-dark-wall.png"
+  },
+  "targetFramework": "Legacy"
+}
